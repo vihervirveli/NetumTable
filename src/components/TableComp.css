@@ -1,0 +1,35 @@
+table, th, td {
+  border: 1px solid black;
+  padding: 1em;
+  
+}
+td{
+  text-align: center;
+}
+th {
+  background-color: #ccccff;
+}
+tr:nth-child(even){background-color:  #ccf2ff;}
+
+table {
+
+  width: 20%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 2em;
+  border-radius: 5%;
+}
+
+form{
+  width:20%;
+  margin:auto;
+}
+h2{
+  
+  padding-top: 1em;
+  width:20%;
+  margin:auto;
+}
+span{
+  color: red;
+}
