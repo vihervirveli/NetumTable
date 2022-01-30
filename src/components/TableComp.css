@@ -30,6 +30,13 @@ h2{
   width:20%;
   margin:auto;
 }
-span{
-  color: red;
+.mybutton {
+  background-color: #008CBA;; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
