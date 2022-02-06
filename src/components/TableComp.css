@@ -8,11 +8,9 @@ body{
   padding: 0;
 }
 .taulukko {
-  left: 20%;
+  margin-left: 2%;
   max-width: 50em;
   width: 30em;
-  margin-left:auto;
-  margin-right: auto;
   margin-top: 2em;
   border: 1px solid black;
   padding: 0.5em;
@@ -37,17 +35,12 @@ tr{
 }
 
 .addForm{
-  left: 20%;
+  display: inline-block;
   width: 20%;
   background-color: white;
 }
 
-h2{
-  
-  padding-top: 1em;
-  width:20%;
-  margin:auto;
-}
+
 .mybutton, .addbutton {
   background-color: #008CBA;
   border: none;
@@ -59,8 +52,5 @@ h2{
   font-size: 16px;
   
 }
-.addbutton{
-  display: block;
-  margin-top: 5px;
-}
+
 

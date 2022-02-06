@@ -161,10 +161,10 @@ const TableComp = () => {
         </tbody>
       </table>
     </form>
-    <h2>Lisää ihminen</h2>
     <form className="addform" onSubmit={handleAddFormSubmit}>
      <AddForm handleAddingPeople={handleAddingPeople}/>
     </form>
+
   </div>)
 }
 

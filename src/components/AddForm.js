@@ -1,7 +1,8 @@
-import './AddForm.css'
+import './AddForm.css';
 const AddForm = ({handleAddingPeople}) => {
   return (
-    <div className="paikalleen">
+    <div className='inputit'>
+      <h2>Lisää ihminen</h2>
     <input type="text" name="firstName" required="required" placeholder='Etunimi' onChange={handleAddingPeople} />
 
     <input type="text" name="lastName" required="required" placeholder='Sukunimi' onChange={handleAddingPeople} />
