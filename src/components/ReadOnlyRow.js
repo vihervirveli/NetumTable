@@ -3,8 +3,10 @@ import './ReadOnlyRow.css'
 /**
  * A read-only row that is displayed to the user when 
  * nothing is being edited.
- * @param {*} param0 
- * @returns 
+ * @param {object} person whose info is stated
+ * @param {any} handleEditClick function that handles the event when a user clicks "Muokkaa" and wants to edit
+ * @param {any} handleDeleteClick function that handles the event when a user click "Poista" and wants to delete a person's info
+ * @returns a row that you can only read with the person's information
  */
 const ReadOnlyRow = ({person, handleEditClick, handleDeleteClick}) => {
 
