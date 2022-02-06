@@ -1,5 +1,5 @@
 .mybutton, .mydeletebutton {
-  background-color: #008CBA;; /* Green */
+  background-color: #008CBA;
   border: none;
   color: white;
   padding: 5px 15px;
@@ -9,6 +9,10 @@
   display: inline-block;
   font-size: 14px;
 }
+.mybutton{
+  margin-right: 5px;
+}
 .mydeletebutton {
   background-color: #555555;;
 }
+

@@ -1,16 +1,13 @@
 import './ReadOnlyRow.css'
 
-const ReadOnlyRow = ({person, handleEditClick}) => {
-/*
-  const handleDelete = (personId) =>{
-    const newPeople = [...people];
-    const index = people.findIndex((person) => 
-      person.id === personId)
-    newPeople.splice(index, 1); 
-    setPeople(newPeople);
-    
-  }
-*/
+/**
+ * A read-only row that is displayed to the user when 
+ * nothing is being edited.
+ * @param {*} param0 
+ * @returns 
+ */
+const ReadOnlyRow = ({person, handleEditClick, handleDeleteClick}) => {
+
 return(
   <tr>
   <td>{person.firstName}</td>
@@ -20,7 +17,8 @@ return(
   <td><button type="button" onClick={(event)=> {
   handleEditClick(event, person)
   }} className='mybutton'>Muokkaa</button>
-  <button className='mydeletebutton'>Poista</button></td>
+  <button type="button" className='mydeletebutton'
+  onClick={()=> handleDeleteClick(person.id)}>Poista</button></td>
 </tr>
 )
 }

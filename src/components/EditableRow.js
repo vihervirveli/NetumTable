@@ -1,7 +1,7 @@
-
+import './EditableRow.css'
 const EditableRow = ({editFormData, handleEditingPeople}) => {
   return (
-  <tr>
+  <tr className='editoitavat'>
     <td><input type="text" name="firstName" required="required" placeholder='Muokkaa etunimeä' 
     value={editFormData.firstName}
     onChange={handleEditingPeople} /></td>
@@ -10,7 +10,7 @@ const EditableRow = ({editFormData, handleEditingPeople}) => {
       value={editFormData.lastName} onChange={handleEditingPeople}/></td>
     <td><input type="number" name="age" required="required" placeholder='Muokkaa ikää'
     value={editFormData.age} onChange={handleEditingPeople}/></td>
-    <td><button type="submit">Tallenna</button></td>
+    <td><button className="savebutton" type="submit">Tallenna</button></td>
   </tr>
   )
 }
